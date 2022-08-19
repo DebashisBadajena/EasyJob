@@ -1,0 +1,112 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 25-Jun-2022, 6:56:31 PM
+    Author     : Deb
+*/
+
+
+.card-div {
+  color: rgb(206, 206, 206);
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  background-color: #000000;
+  padding: 5px;
+  width: 1000px;
+  box-shadow: 0 0 15px rgb(30, 30, 30);
+  border-radius: 15px;
+}
+.card-user-profile {
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+}
+
+.card-profile-pic {
+  margin-left: 20px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+
+}
+.card-profile-pic img{
+  border-style: groove;
+  padding: 3px;
+  border-radius: 50%;
+  border-color:#fc2718 ;
+  
+}
+.card-user-details {
+  align-items: left;
+  padding-left: 10px;
+}
+
+.card-post-details {
+  margin-top: 20px;
+  margin-left: 35px;
+}
+.card-user-details h3{
+  cursor: pointer;
+}
+
+.card-user-details h6{
+
+  color: rgb(136, 135, 135);
+}
+
+.card-post-details div{
+  display: flex;
+  margin: 5px;
+}
+.card-post-details label{
+  font-size: small;
+  padding-right: 5px;
+}
+.card-post-details p{
+font-size: smaller;
+margin: 5px 35px 5px 10px;
+color: rgb(136, 135, 135);
+}
+.card-apply-time{
+
+  display: flex;
+  margin: 20px;
+}
+.apply{
+  margin-left: 20px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: wheat;
+  background-color: #58b1b4;
+  cursor: pointer;
+}
+
+.time{
+  text-align: right;
+}
+.time h5{
+    text-align: right;
+      font-size: 10px;
+
+}
+
+/*hover*/
+
+
+/*.card:hover {
+  background-color: rgb(17, 17, 17);
+  transition: 0.45s;
+}*/
+
+.apply:hover{
+background-color: aqua;
+color: #000000;
+transition: 0.45s;
+
+}

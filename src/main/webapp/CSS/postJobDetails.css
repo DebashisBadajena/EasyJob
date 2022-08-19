@@ -1,0 +1,122 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 29-Jun-2022, 9:02:14 PM
+    Author     : Deb
+*/
+
+.card-post-details{
+    background-color: black;
+    color: rgb(206, 206,206);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(60, 60, 60, 0.45);
+    padding: 50px;
+    margin: 20px;
+    
+}
+.post-name{
+    font-weight: bold;
+}
+.post-info-div{
+    display: flex;
+    margin-top: 10px;
+}
+.post-info-div label{
+    width: 10%;
+    text-align: right;
+    margin-right: 10px;
+}
+.post-info-div h6{
+    width: 80%
+    
+}
+.card-apply-time{
+    text-align: right;
+    
+}
+
+
+
+
+.applicant-div{
+    background-color: rgb(23, 23, 23);
+    margin: 20px;
+    padding: 20px;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(60, 60, 60, 0.463);
+}
+.applicant-profile{
+    display: flex;
+    padding: 5px;
+    color: rgb(206, 206, 206);
+
+}
+.applicant-profile-pic img{
+    border-radius: 50%;
+    border-style: groove;
+    border-width: 2px;
+    border-color: rgb(29, 247, 29);
+    padding: 2px;
+    margin: 0 15px;
+}
+.applicant-info{
+    color: rgb(206, 206, 206);
+    display: flex;
+    margin: 5px ;
+}
+.applicant-info label{
+    width: 15%;
+    text-align: right;
+    padding-right: 10px;
+}
+.about{
+    color: rgb(206, 206, 206);
+    margin-left: 30px;
+    margin-top: 15px;
+    
+}
+.applicant-select-button{
+    display: flex;
+    justify-content: space-between;
+}
+.applicant-select-button h6{
+    color: rgb(206,206,206);   
+    align-self: end;
+   font-size: 10px;
+}
+
+
+
+.applicant-select-button a{
+    
+    background-color: #36d100;
+    margin-left: 20px;
+    padding:5px 15px; 
+    color:white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.post-job-details-delete{
+    background-color: #fc2718;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+/*hover*/
+.applicant-select-button a:hover{
+    color: black;
+    transition: 0.5s;
+}
+.post-job-details-delete:hover{
+    box-shadow: 0 0 15px #fc2718;
+    transition: 0.5s;
+}

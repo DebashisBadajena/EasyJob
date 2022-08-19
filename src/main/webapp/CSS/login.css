@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sen", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(17, 17, 17);
+}
+.nav-div {
+  padding: 20px;
+}
+nav {
+  background-color: rgba(10, 10, 10, 0.5);
+  border-radius: 15px;
+  box-shadow: 0 3px 3px 2px;
+  display: flex;
+  padding: 1% 4%;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+nav a {
+  text-decoration: none;
+}
+.logo {
+  color: rgb(206, 206, 206);
+  font-size: 35px;
+}
+nav ul li {
+  list-style: none;
+  display: inline;
+  position: relative;
+}
+nav ul a {
+  color: rgb(206, 206, 206);
+  font-size: medium;
+  text-align: center;
+  padding: 8px 9px;
+}
+.login {
+  padding: 10px 15px 10px 15px;
+  margin: 0 20px 0 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: #fc2718;
+}
+
+.container {
+  margin: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.old-user {
+  display: flex;
+  color: rgb(206, 206, 206);
+}
+
+
+.log-in-div {
+  background-color: #000000f6;
+  color: rgb(27, 27, 27);
+  width: 380px;
+  margin: 15px 35px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 7px 10px 10px 5px;
+}
+.log-in-div h1 {
+  text-align: center;
+  color:#fc2718;
+  font-weight: bold;
+  margin: 25px;
+}
+.user-name {
+  color: rgb(206, 206, 206);
+  font-weight: bold;
+  margin: 10px 25px;
+  margin-bottom: 20px;
+}
+.user-name h3 {
+  color: rgb(206, 206, 206);
+  padding-bottom: 10px;
+  font-size: medium;
+}
+.input {
+  width: 100%;
+  background-color: rgb(206, 206, 206);
+  height: 35px;
+  padding: 7px 15px;
+  border: none;
+  outline: none;
+  border-radius: 47px;
+}
+.button{
+  text-align: center;
+  background-color:rgb(206, 206, 206);
+  color: #fc2718;
+  margin: 35px 95px;
+  padding: 1px;
+  border-radius: 47px;
+  cursor: pointer;
+  height:30px;
+}
+.button input{
+    background: none;
+    border: none;
+    font-weight:bold;
+    font-size: medium;
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+
+  
+  
+.old-user a{
+  text-decoration: none;
+}
+
+
+/* Hover */
+
+.button:hover {
+  color:rgb(206, 206, 206);
+  font-weight: bold;
+  background-color: #fc2718;
+  box-shadow: 0px 0px 50px #fc2718;
+  transition: 0.55s;
+}
+.button input:hover{
+    color:rgb(206, 206, 206);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.old-user a:hover{
+transition: 0.5s;
+color: rgb(206, 206, 206);
+
+}

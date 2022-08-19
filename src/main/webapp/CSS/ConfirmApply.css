@@ -1,0 +1,104 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 01-Jul-2022, 10:57:58 PM
+    Author     : Deb
+*/
+
+.applicant-div {
+  background-color: rgb(23, 23, 23);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(60, 60, 60, 0.463);
+  width: 100%;
+}
+.applicant-profile {
+  display: flex;
+  padding: 5px;
+  color: rgb(206, 206, 206);
+}
+.applicant-profile-pic img {
+  border-radius: 50%;
+  border-style: groove;
+  border-width: 2px;
+  border-color: rgb(29, 247, 29);
+  padding: 2px;
+  margin: 0 15px;
+}
+.applicant-info {
+  color: rgb(206, 206, 206);
+  display: flex;
+  margin: 5px 20px;
+  background-color: aqua;
+}
+.applicant-info label {
+  background-color: blue;
+  width: 20%;
+  text-align: right;
+  padding-right: 10px;
+}
+.confirm-form-div {
+  color: rgb(206, 206, 206);
+  display: flex;
+  justify-content: center;
+  margin: 40px 25px;
+  padding: 20px;
+}
+.confirm-form-div form{
+width: 85%;
+padding: 25px;
+
+}
+.form-qul-exp{
+display: flex;
+}
+.form-qul-exp div{
+margin: 10px;
+}
+.form-qul-exp div label{
+font-size: small;
+padding-right: 10px;
+margin: 5px 0;
+    
+}
+.confirm-form-div input{
+  background: none;
+  border:groove;
+  outline: none;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 5px;
+  margin-top: 10px;
+  color: rgb(206, 206, 206);
+  width: 100%;
+
+}
+.description label{
+  font-size: small;
+  margin: 10px;
+  
+}
+.confirm-form-div textarea{
+  width: 50%;
+  margin-left: 10px;
+}
+.confirm-apply-button{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.confirm-apply-button input{
+  width: 40%;
+  background-color: #fc2718;
+  border:none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.confirm-apply-button input:hover{
+  box-shadow: 0 0 25px #fc2718;
+  transition: 0.5s;
+}

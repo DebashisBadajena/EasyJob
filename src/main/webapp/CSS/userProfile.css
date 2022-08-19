@@ -1,0 +1,85 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 23-Jun-2022, 8:29:37 PM
+    Author     : Deb
+*/
+
+.user-profile-container {
+  color: #cecece;
+  margin: 85px;
+  
+  height: 450px;
+}
+.user-profile{
+display: flex;
+padding: 10px;
+
+}
+.user-profile-picture-div{
+  margin: 20px;
+  width: 30%;
+
+}
+.user-profile-information{
+    
+    margin-left: 150px
+}
+.user-profile-picture-div img{
+border-radius: 50%;
+border-style: groove;             
+padding: 5px;
+cursor: pointer;
+margin-left: 100px
+}
+.user-post-details{
+  display: flex;
+  margin-top:20px ;
+  margin-bottom: 20px;
+  
+}
+.user-post-details p{
+  padding-right: 35px;
+
+}
+.user-details{
+ padding-right: 200px;
+
+}
+.user-details h3{
+  padding-bottom: 5px;
+}
+.user-details p{
+  padding-bottom: 15px;
+  color: rgb(136, 135, 135);
+
+}
+.about-user-div p{
+  color: rgb(206, 206, 206);
+  
+}
+.edit-button{
+  background-color:#69ced2;
+  color: black;
+  font-weight:bold;
+  border-radius: 7px;
+  width: auto;
+  padding: 10px 20px;
+  
+}
+
+
+
+/*hover*/
+
+
+.edit-button:hover{
+  outline: none;
+  border: none;
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: #58b1b4;
+
+}

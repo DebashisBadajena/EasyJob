@@ -1,0 +1,112 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 21-Jun-2022, 8:25:00 PM
+    Author     : Deb
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+* {
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: "Sen", sans-serif;
+}
+.add_job_form {
+  background-color: #000000;
+  color: rgb(206, 206, 206);
+  margin: 80px;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 7px rgb(61, 60, 60);
+}
+.input_form {
+  margin: 10px;
+  padding-top: 20px;
+}
+.form_block h1{
+text-align: center;  
+}
+
+
+.titel {
+  margin: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+.titel h3 {
+  padding: 10px;
+  margin-right: 10px;
+  width: 19%;
+}
+
+.input {
+  width: 60%;
+  background-color: rgb(30, 30, 30);
+  padding-left: 10px;
+  padding-right: 10px;
+  color: rgb(206, 206, 206);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.form_button{
+
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+.form_button input{
+  background-color: #fc2718;
+  color: rgb(206, 206, 206);
+  border: none;
+  font-size: large;
+  font-weight: bold;
+  margin: 5px;
+  margin-right: 50px;
+  padding: 15px;
+  width: 20%;
+  border-radius: 25px;
+  cursor: pointer;
+
+}
+.cancel{
+  background:none;
+  color: rgb(206, 206, 206);
+  border-style: groove;
+  border-width: 2px;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin: 5px;
+  margin-left: 50px;
+  padding: 15px;
+  width: 20%;
+  border-radius: 25px;
+  cursor: pointer;
+
+}
+
+
+
+
+/* hover */
+.post_job_button:hover {
+  background-color: rgb(206, 206, 206);
+  color: #fc2718;
+  transition: 0.5s;
+}
+.form_button input:hover{
+  box-shadow: 0 0 50px #fc2718;
+  transition: 0.5s;
+}
+.cancel:hover{
+  background-color: rgb(206, 206, 206);
+  box-shadow: 0 0 50px rgb(206, 206, 206) ;
+  transition: 0.5s;
+  color: black;
+}

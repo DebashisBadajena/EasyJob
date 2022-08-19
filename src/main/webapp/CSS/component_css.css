@@ -1,0 +1,137 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 20-Jun-2022, 3:13:49 PM
+    Author     : Deb        
+    nav bar css
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+* {
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: "Sen", sans-serif;
+}
+body{
+
+    background-color: rgb(17, 17, 17);
+}
+.user_nav_bar_div {
+    position: sticky;
+}
+
+.user_nav_bar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(30, 30, 30);
+    box-shadow: 0px 2px 3px ;
+}
+.logo_link {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+    margin-left: 75px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.search_div {
+    height: 90%;
+    padding: 2px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 15px;
+
+}
+.search_form {
+    padding: 2px;
+}
+.search_field {
+    background: none;
+    border: none;
+    outline: none;
+    margin: 5px;
+    width: 360px;
+    padding-left: 4px;
+    color: aliceblue;
+}
+.search_button {
+    background-color: #fc2718;
+    color: rgb(206, 206, 206);
+    font-weight: 900;
+    border: none;
+    border-radius: 15px;
+    margin: 2px;
+    width: 45px;
+    height: 35px;
+    padding-right: 4px;
+    cursor: pointer;
+}
+.user_profile_div{
+    display: flex;
+    align-items: center;
+    margin-right: 75px;
+    color: rgb(206, 206, 206);
+}
+.user_profile_div p{
+    margin: 7px;
+}
+.user_profile_div p span{
+    cursor: pointer;
+}
+
+.profile_pic{
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.log_out{
+    margin: 0 5px;
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+}
+.post_job_button {
+    background-color: #fc2718;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(206, 206, 206);
+    font-weight: bold;
+    border: none;
+    margin-left: 220px;
+    cursor: pointer;
+}
+
+
+
+
+/* hover */
+
+.search_button:hover {
+    background-color: rgb(206, 206, 206);
+    color: #fc2718;
+    transition: 0.5s;
+}
+.log_out:hover{
+    margin: 0 5px;
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+    color:#fc2718 ;
+}
+.post_job_button:hover{
+
+    background-color: rgb(206, 206, 206);
+    color: #fc2718;
+    text-decoration: none;
+
+    transition: 0.5s;
+}
+.logo_link:hover{
+    text-decoration: none;
+
+}
